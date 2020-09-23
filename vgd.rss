@@ -1,64 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
-<channel>
-<link>https://vidadegamedevpodcast.github.io/</link>
-<language>pt-br</language>
-<copyright>&#xA9;2020</copyright>
-<webMaster>brunopagno@gmail.com (Bruno pagno)</webMaster>
-<managingEditor>marciovmf@gmail.com (Márcio Freitas)</managingEditor>
-<image>
-   <url>https://vidadegamedevpodcast.github.io/images/icon.png</url>
-   <title>Vida de Gamedev</title>
-   <link>https://vidadegamedevpodcast.github.io</link>
-</image>
-<!-- Itunes specific stuff
-<itunes:owner>
-   <itunes:name>Your Name</itunes:name>
-   <itunes:email>your@email.com</itunes:email>
-</itunes:owner>
-<itunes:category text="Education">
-   <itunes:category text="Higher Education" />
-</itunes:category>
-<itunes:keywords>separate, by, comma, and, space</itunes:keywords>
-<itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://www.YourSite.com/ImageSize300X300.jpg" />
-<atom:link href="https://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
-<title>Verbose title of the podcast</title>
-<itunes:author>College, school, or department owning the podcast</itunes:author>
-<description>Verbose description of the podcast.</description>
-<itunes:summary>Duplicate of above verbose description.</itunes:summary>
-<itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
-<lastBuildDate>Fri, 05 Oct 2018 09:00:00 GMT</lastBuildDate>
--->
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Vide de GameDev</title>
+		<description>Somos desenvolvedores de games e as vezes de outras coisas. Vamos falar das nossas experiencias, ideias, opinioes e novidades normalmente relacionado a desenvolvimento de jogos. Nos acompanhe nessa jornada sem pauta, sem edição e as vezes fora do tópico. </description>
+		<author>Bruno Pagno, Gregorio Benatti e Márcio Freitas</author>
+		<email>vdgpodcast@gmail.com</email>
+		<link>https://vidadegamedevpodcast.github.io/</link>
+		<language>pt-br</language>
 
-<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
-<item>
-   <title>VGD EP0 - Como não fazer um podcast sobre games</title>
-   <description>Voltamos ao mundo dos podcasts pra falar sobre nossas experiências na indústria de jogos. Nos acompanhe neste episódio sem pauta, sem edição, com audio ruim e fora do tópico.</description>
-   <enclosure url="https://www.YourSite.com/FILE.mp3" type="audio/mpeg" length="1" />
-   <guid>https://www.YourSite.com/FILE.mp3</guid>
-   <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
-   <!-- ITunes specific stuff
-   <itunes:summary>Duplicate of above verbose description.</itunes:summary>
-   <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle> 
-   <itunesu:category itunesu:code="112" />
-   <itunes:duration>H:MM:SS</itunes:duration>
-   -->
-</item>
+		<itunes:subtitle>Subtitle of podcast</itunes:subtitle>
+		<itunes:image href="https://vidadegamedevpodcast.github.io/images/podcast-rss-logo.png" />
 
-<item>
-   <title>VGD EP1 - Mitos da indústria de games</title>
-   <description></description>
-   <enclosure url="https://www.YourSite.com/FILE.mp3" type="audio/mpeg" length="1" />
-   <guid>https://www.YourSite.com/FILE.mp3</guid>
-   <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
-   <!-- ITunes specific stuff
-   <itunes:summary>Duplicate of above verbose description.</itunes:summary>
-   <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle> 
-   <itunesu:category itunesu:code="112" />
-   <itunes:duration>H:MM:SS</itunes:duration>
-   -->
-</item>
-</channel>
+		<itunes:author>Bruno Pagno, Gregorio Benatti e Márcio Freitas</itunes:author>
+		<itunes:summary>Somos desenvolvedores de games e as vezes de outras coisas. Vamos falar das nossas experiencias, ideias, opinioes e novidades normalmente relacionado a desenvolvimento de jogos. Nos acompanhe nessa jornada sem pauta, sem edição e as vezes fora do tópico. </itunes:summary>
+		<description>Somos desenvolvedores de games e as vezes de outras coisas. Vamos falar das nossas experiencias, ideias, opinioes e novidades normalmente relacionado a desenvolvimento de jogos. Nos acompanhe nessa jornada sem pauta, sem edição e as vezes fora do tópico. </description>
+		<itunes:owner>
+		    <itunes:name>Vide de GameDev</itunes:name>
+		    <itunes:email>vdgpodcast@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>yes</itunes:explicit>
+		<itunes:image href="http://www.example.com/podcast-icon.jpg" />
+		<itunes:category text="Leisure">
+    		<itunes:category text="Games" />
+    		<itunes:category text="Video Games" />
+  		</itunes:category>
+  		<itunes:category text="Technology" />
+
+		<!--REPEAT 1 ITEM BLOCK FOR EACH EPISODE... -->
+		
+		<item>
+		    <title>VGD EP1 - Mitos da indústria de games</title>
+   			<description>Neste episódio falamos sobre os mitos da indústria de games e conseguimos ficar dentro do assunto na maior parte do tempo.</description>		    
+   			<link>https://vidadegamedevpodcast.github.io/post/ep1/</link>
+		    <enclosure url="https://vidadegamedevpodcast.github.io/audios/ep1.mp3" type="audio/mpeg" length="1024"></enclosure>
+		    <guid>2</guid>
+		    <pubDate>Mon, 14 Sep 2020 09:00:00 GMT</pubDate>
+		    <itunes:summary>Neste episódio falamos sobre os mitos da indústria de games e conseguimos ficar dentro do assunto na maior parte do tempo.</itunes:summary>
+
+   			<itunes:subtitle>Mitos da indústria de games</itunes:subtitle> 
+		    <itunes:author>Bruno Pagno, Gregorio Benatti e Marcio Freitas</itunes:author>
+		    <itunes:duration>01:30:35</itunes:duration>
+		    <itunes:explicit>true</itunes:explicit>
+		</item> 
+
+		<item>
+		    <title>VGD EP0 - Como não fazer um podcast sobre games</title>
+		    <description>Voltamos ao mundo dos podcasts pra falar sobre nossas experiências na indústria de jogos. Nos acompanhe neste episódio sem pauta, sem edição, com audio ruim e fora do tópico.</description>
+		    <link>https://vidadegamedevpodcast.github.io/post/ep0</link>
+		    <enclosure url="https://vidadegamedevpodcast.github.io/audios/ep0.mp3" type="audio/mpeg" length="1024"></enclosure>
+		    <guid>1</guid>
+		    <pubDate>Mon, 31 Ago 2020 09:00:00 GMT</pubDate>
+		    <itunes:summary>Voltamos ao mundo dos podcasts pra falar sobre nossas experiências na indústria de jogos. Nos acompanhe neste episódio sem pauta, sem edição, com audio ruim e fora do tópico.</itunes:summary>
+   			<itunes:title>VGD EP1 - Mitos da indústria de games</itunes:title>
+   			<itunes:subtitle>Como não fazer um podcast sobre games</itunes:subtitle> 
+		    <itunes:author>Bruno Pagno, Gregorio Benatti e Marcio Freitas</itunes:author>
+		    <itunes:duration>01:12:55</itunes:duration>
+		    <itunes:explicit>true</itunes:explicit>
+		</item> 
+	</channel>
 </rss>
