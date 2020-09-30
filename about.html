@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre - Vida de Gamedev Podcast</title>
-</head>
-<body>
-  
-  <p>Nós falamos sobre gamdev e tal</p>
+  <title>Sobre | Vida de gamedev - podcast</title>
 
+  <style>
+    :root {
+      --bg-color: #fafafa;
+      --main-color: #404040;
+      --accent-color: #6a6a6a;
+      --main-width: 700px;
+      --margin-regular: 16px;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      color: var(--main-color);
+      background-color: var(--bg-color);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+    }
+
+    .wrapper {
+      width: var(--main-width);
+      margin: 0 auto;
+    }
+
+    .header {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+    }
+
+    .icon {
+      width: 64px;
+      padding: 0 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <img class="icon" src="images/icon.png" alt="icon" />
+      <h1>Vida de Gamedev Podcast</h1>
+    </div>
+
+    <p>Nós falamos sobre gamdev e tal</p>
+
+  </div>
 </body>
+
 </html>
