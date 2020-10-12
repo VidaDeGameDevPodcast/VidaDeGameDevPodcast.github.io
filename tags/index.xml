@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on Vida de gamedev - podcast</title>
+		<link>https://vidadegamedevpodcast.github.io/tags/</link>
+		<description>Recent content in Tags </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>pt-br</language>
+		
+		<managingEditor>Page(/tags) (Os caras do vida de gamedev)</managingEditor>
+    	
+		<atom:link href="/tags/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>VGD Ep1 - Mitos da indústria de games</title>
+			<link>https://vidadegamedevpodcast.github.io/post/ep1/</link>
+			<pubDate>Mon, 14 Sep 2020 19:00:00 +0200</pubDate>
+			<guid>https://vidadegamedevpodcast.github.io/post/ep1/</guid>
+			<description>Neste episódio falamos sobre os mitos da indústria de games e conseguimos ficar dentro do assunto na maior parte do tempo.
+LDK 1
+LDK 2
+Série de videos sobre desenvolvimento de Game Engines
+Documentário sobre o desenvolvimento do Braid (entre outros jogos indie)
+Braid, Anniversary Edition - Announcement Trailer
+SDKs Playstation Vista
+Fazendo um game pra 5 consoles diferentes - Ludum Dare 46
+Balanceando League of Legends</description>
+		</item>
+      	
+		<item>
+			<title>VGD Ep0 - Como não fazer um podcast sobre games</title>
+			<link>https://vidadegamedevpodcast.github.io/post/ep0/</link>
+			<pubDate>Mon, 31 Aug 2020 11:01:19 +0200</pubDate>
+			<guid>https://vidadegamedevpodcast.github.io/post/ep0/</guid>
+			<description>Voltamos ao mundo dos podcasts pra falar sobre nossas experiências na indústria de jogos. Nos acompanhe neste episódio sem pauta, sem edição, com audio ruim e fora do tópico.</description>
+		</item>
+      	
+	</channel>
+</rss>
