@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+@media screen and (min-width:658px)  {
+    body {
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		  
+		transform: translate(-50%, -50%);
+		  
+		width: 460px;
+		height: 100%;
+    }
+}
+
+@media screen and (min-width:659px) {
+    body {
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		  
+		transform: translate(-50%, -50%);
+		  
+		width: 660px;
+		height: 50%;
+    }
+}
+
+
+img {
+	/*
+	img size --> 660x150
+	*/
+	width: 100%;
+}
+
+img:hover {
+  -moz-box-shadow: 0 0 15px #CCC;
+  -webkit-box-shadow: 0 0 15px #CCC;
+  box-shadow: 0px 0px 15px #CCC;
+  filter:progid:DXImageTransform.Microsoft.Glow(Color=grey,Strength=15);
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FFF; 
+    background-image: url("../images/bg5.png");
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+a:hover.nocolor {
+    color: #777;
+}
+
+a:hover {
+    color: #000;
+}
+
+blockquote {
+    color: #999
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+pre {
+    padding: 30px 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.details {
+    color: #777;
+    text-align: justify;
+    padding-top: 10px;
+    display:block;
+}
+
+.links {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.divider {
+    border: 1px solid #CCC;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
